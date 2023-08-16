@@ -1,4 +1,4 @@
-#include <Python.h>
+nclude <Python.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -46,7 +46,7 @@ void print_python_list(PyObject *p)
     }
 }
 
-int main(int argc, char *argv[])
+int main()
 {
     // Initialize the Python interpreter
     Py_Initialize();
